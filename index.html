@@ -38,7 +38,6 @@
                 <label for = "chocolate">Chocolate</label>
             </div>
             </fieldset>
-        </div>
             <fieldset>
                 <legend>Size:</legend>
             <div>
@@ -69,7 +68,9 @@
                 <label for = "caramel">Caramel Sauce</label>
             </div>
             </fieldset>
-        <div>
+            </div>
+        <fieldset>
+            <legend>Cup or Cone:</legend>
             <label for = "container">Please Choose One</label>
             <select name = "container" id = "container">
                 <option value = "cup">Plastic Cup</option>
@@ -77,11 +78,14 @@
                 <option value = "waffle">Waffle cone</option>
                 <option value = "dippedWaffle">Chocolate Dipped Waffle Cone</option>
             </select>
-        </div>
-        <div>
+        </fieldset>
+        <fieldset>
+            <legend>Special:</legend>
             <label for = "SpecialRequests">Special Requests:</label>
             <textarea id = "SpecialRequests" name = "SpecialRequests" rows = "4" cols = "10" placeholder = "Allergic to peanuts, substitutions, etc."></textarea>
-        </div>
+            </fieldset>
+            <button type = "button" onclick = "alert('Free today for our Grand Opening!')">Calculate Cost</button>
+            <button type = "submit">Submit Order</button>
         </form>
     </div>
 </div>
